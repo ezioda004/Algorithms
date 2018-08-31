@@ -1,0 +1,1 @@
+f=i=>[1,2,3,4].map(a=>a*[...i].reduce((a,c)=>a+=c.charCodeAt(),0)%256)
